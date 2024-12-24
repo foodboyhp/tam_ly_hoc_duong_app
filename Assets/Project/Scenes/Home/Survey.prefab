@@ -539,8 +539,9 @@ GameObject:
   - component: {fileID: 4804909692474907903}
   - component: {fileID: 3852183130062431955}
   - component: {fileID: 1459048286099016051}
+  - component: {fileID: 221713638188921585}
   m_Layer: 5
-  m_Name: InApp
+  m_Name: Survey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -606,6 +607,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &221713638188921585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459929032672103974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9488e6bae6b9e544ea9d86bdbe8c354a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8129654971568878383
 GameObject:
   m_ObjectHideFlags: 0
