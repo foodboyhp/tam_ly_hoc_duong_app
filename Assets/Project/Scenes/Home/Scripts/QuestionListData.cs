@@ -13,7 +13,7 @@ public class QuestionListData : ScriptableObject
 public class QuestionData
 {
     public string question;
-    public List<AnswerData> answer;
+    public List<AnswerData> answerList;
 }
 
 [Serializable]

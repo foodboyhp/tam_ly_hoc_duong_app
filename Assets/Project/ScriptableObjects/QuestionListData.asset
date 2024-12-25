@@ -14,52 +14,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionListData:
   - question: "N\u1ED7i bu\u1ED3n"
-    answer:
-    - answer: "M\xECnh kh\xF4ng c\u1EA3m th\u1EA5y bu\u1ED3n ch\xFAt n\xE0o!"
+    answerList:
+    - answer: 1
       point: 0
-    - answer: 
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
       point: 0
-    - answer: 
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
       point: 0
-    - answer: 
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
       point: 0
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
-  - question: 
-    answer: []
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
+      point: 0
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
+      point: 0
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
+      point: 0
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
+      point: 0
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
+      point: 0
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3
+  - question: "N\u1ED7i bu\u1ED3n"
+    answerList:
+    - answer: 1
+      point: 0
+    - answer: 2
+      point: 1
+    - answer: 3
+      point: 2
+    - answer: 4
+      point: 3

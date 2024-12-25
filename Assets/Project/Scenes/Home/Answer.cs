@@ -13,12 +13,19 @@ public enum AnswerState
 public class Answer : MonoBehaviour
 {
     [SerializeField] TMP_Text m_AnswerText;
+    [SerializeField] GameObject m_ChosenShield;
+    [SerializeField] GameObject m_LockedShield;
+    private Question m_BelongedQuestion;
     private AnswerState m_AnswerState;
+    private AnswerData m_AnswerData;
     public AnswerState answerState => m_AnswerState;
+    public AnswerData AnswerData => m_AnswerData;
 
-    public void Setup(AnswerData answerData)
+    public void Setup(AnswerData answerData, Question question)
     {
         m_AnswerText.text = answerData.answer;
+        m_AnswerData = answerData;
+        m_BelongedQuestion = question;
     }
 
     public void SetupState(AnswerState state)
@@ -35,6 +42,7 @@ public class Answer : MonoBehaviour
             default:
                 break;
         }
+        m_ChosenShield.SetActive(m_AnswerState.Equals(AnswerState.Chosen));
     }
 
     public void OnAnswerButtonTap()
@@ -42,6 +50,8 @@ public class Answer : MonoBehaviour
         if (m_AnswerState.Equals(AnswerState.Clickable))
         {
             SetupState(AnswerState.Chosen);
+            m_BelongedQuestion.ChooseAnswer(this);
+            Debug.Log(m_AnswerData.point);
         }
     }
 }

@@ -9,6 +9,4 @@ public class LoginController : MonoBehaviour
     {
         SceneManager.LoadScene("Home");
     }
-
-
 }
