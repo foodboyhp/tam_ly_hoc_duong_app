@@ -13,6 +13,8 @@ public enum AnswerState
 public class Answer : MonoBehaviour
 {
     [SerializeField] TMP_Text m_AnswerText;
+    private AnswerState m_AnswerState;
+    public AnswerState answerState => m_AnswerState;
 
     public void Setup(AnswerData answerData)
     {
@@ -21,6 +23,25 @@ public class Answer : MonoBehaviour
 
     public void SetupState(AnswerState state)
     {
+        m_AnswerState = state;
+        switch (m_AnswerState)
+        {
+            case AnswerState.Clickable:
+                break;
+            case AnswerState.NotClickable:
+                break;
+            case AnswerState.Chosen:
+                break;
+            default:
+                break;
+        }
+    }
 
+    public void OnAnswerButtonTap()
+    {
+        if (m_AnswerState.Equals(AnswerState.Clickable))
+        {
+            SetupState(AnswerState.Chosen);
+        }
     }
 }

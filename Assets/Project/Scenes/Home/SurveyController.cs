@@ -15,12 +15,28 @@ public class SurveyController : MonoBehaviour
         for (int i = 0; i < questionListData.questionListData.Count; i++)
         {
             var question = Instantiate(m_QuestionPrefab, m_ContentTransform);
+            question.SetupState(QuestionState.NotAnswered);
             m_QuestionList.Add(question);
         }
     }
 
     public void OnSubmitButtonTap()
     {
+        if (IsSubmitable())
+        {
 
+        }
+    }
+
+    public bool IsSubmitable()
+    {
+        for (int i = 0; i < m_QuestionList.Count; i++)
+        {
+            if (m_QuestionList[i].questionState.Equals(QuestionState.NotAnswered))
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }
