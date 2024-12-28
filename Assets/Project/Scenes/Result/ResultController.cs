@@ -38,7 +38,7 @@ public class ResultController : MonoBehaviour
         else if (result >= 29)
         {
             m_DiagnoseTexts[0].text = "Trầm cảm nặng";
-            m_DiagnoseTexts[1].text = "Hãy chia sẻ bản thân của mình, cũng như trao đổi với các chuyên viên tâm lý! Bạn không hề đơn độc trên con đường này đâu nhé!";
+            m_DiagnoseTexts[1].text = "Hãy bày tỏ bản thân của mình, cũng như trao đổi với các chuyên viên tâm lý! Bạn không hề đơn độc trên con đường này đâu nhé!";
 
         }
     }

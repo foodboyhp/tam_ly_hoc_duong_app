@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class SurveyController : MonoBehaviour
 {
     [SerializeField] Transform m_ContentTransform;
     [SerializeField] Question m_QuestionPrefab;
+    [SerializeField] Button m_SubmitButtonImage;
     private List<Question> m_QuestionList = new List<Question>();
-    private bool m_Submitable;
 
     public int TotalPoint
     {
@@ -30,6 +30,25 @@ public class SurveyController : MonoBehaviour
     private void Start()
     {
         Init();
+    }
+
+    private void Update()
+    {
+        if (!IsSubmitable())
+        {
+            var colorBlock = m_SubmitButtonImage.colors;
+            colorBlock.normalColor = Color.gray;
+            m_SubmitButtonImage.colors = colorBlock;
+            m_SubmitButtonImage.interactable = false;
+        }
+        else
+        {
+            var colorBlock = m_SubmitButtonImage.colors;
+            colorBlock.normalColor = Color.white;
+            m_SubmitButtonImage.colors = colorBlock;
+            m_SubmitButtonImage.interactable = true;
+
+        }
     }
 
     private void Init()
