@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,34 +9,38 @@ public class ResultController : MonoBehaviour
 {
 
     [SerializeField] TMP_Text m_ResultText;
-    [SerializeField] TMP_Text m_DiagnoseText;
+    [SerializeField] List<TMP_Text> m_DiagnoseTexts = new List<TMP_Text>();
     private void Start()
     {
         int result = PlayerPrefs.GetInt("Latest Survey Result");
         m_ResultText.text = "Ket qua la: " + result;
-        m_DiagnoseText.text = DiagnoseResult(result);
+        DiagnoseResult(result);
     }
 
-    private string DiagnoseResult(int result)
+    private void DiagnoseResult(int result)
     {
-        string res = "";
         if (result >= 0 && result <= 13)
         {
-            res = "You are not depressed";
+            m_DiagnoseTexts[0].text = "Không trầm cảm, tiền stress";
+            m_DiagnoseTexts[1].text = "Bạn chưa có dấu hiệu của trầm cảm, nhưng cũng đừng bỏ quên việc chăm sóc sức khỏe tâm lý của mình nha!";
         }
         else if (result >= 14 && result <= 19)
         {
-            res = "You are slightly depressed";
+            m_DiagnoseTexts[0].text = "Trầm cảm nhẹ";
+            m_DiagnoseTexts[1].text = "Bạn đang có dấu hiệu không tích cực về tâm lý, hãy trao đổi với mọi người xung quanh về tình trạng của mình!";
         }
         else if (result >= 20 && result <= 28)
         {
-            res = "You are depressed";
+            m_DiagnoseTexts[0].text = "Trầm cảm";
+            m_DiagnoseTexts[1].text = "Bạn đang gặp vấn đề về tâm lý. Hãy thư giãn một chút và trao đổi với mọi người để giúp bản thân mình tìm được giải pháp nhé!";
+
         }
         else if (result >= 29)
         {
-            res = "You are severely depressed";
+            m_DiagnoseTexts[0].text = "Trầm cảm nặng";
+            m_DiagnoseTexts[1].text = "Hãy chia sẻ bản thân của mình, cũng như trao đổi với các chuyên viên tâm lý! Bạn không hề đơn độc trên con đường này đâu nhé!";
+
         }
-        return res;
     }
     public void OnBackButton()
     {

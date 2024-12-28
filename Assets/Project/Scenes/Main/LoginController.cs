@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoginController : MonoBehaviour
 {
+
     public void OnLoginButtonTap()
     {
         SceneManager.LoadScene("Home");

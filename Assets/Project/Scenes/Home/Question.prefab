@@ -516,7 +516,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 720, y: 350}
+  m_SizeDelta: {x: 720, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1660771919233114640
 CanvasRenderer:
@@ -572,6 +572,9 @@ MonoBehaviour:
   m_ContentTransform: {fileID: 2368249027291455045}
   m_ShieldObject: {fileID: 2213765496092224561}
   m_AnswerPrefab: {fileID: 7056483973543597780, guid: fd14a3a25acaa7342abdc95f29253f3a, type: 3}
+  currentAnswer:
+    answer: 
+    point: 0
 --- !u!1 &6980906167483980640
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,7 +631,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 1
-  m_Spacing: 0
+  m_Spacing: 10
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0

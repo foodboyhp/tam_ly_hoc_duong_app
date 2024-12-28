@@ -15,101 +15,274 @@ MonoBehaviour:
   questionListData:
   - question: "N\u1ED7i bu\u1ED3n"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh kh\xF4ng c\u1EA3m th\u1EA5y bu\u1ED3n ch\xFAt n\xE0o!"
       point: 0
-    - answer: 2
+    - answer: "Nhi\u1EC1u l\xFAc m\xECnh c\u1EA3m th\u1EA5y bu\u1ED3n \u0111\xF4i
+        ch\xFAt."
       point: 1
-    - answer: 3
+    - answer: "L\xFAc n\xE0o m\xECnh c\u0169ng c\u1EA3m th\u1EA5y bu\u1ED3n."
       point: 2
-    - answer: 4
+    - answer: "M\xECnh r\u1EA5t bu\u1ED3n ho\u1EB7c r\u1EA5t b\u1EA5t h\u1EA1nh \u0111\u1EBFn
+        m\u1EE9c kh\xF4ng th\u1EC3 ch\u1ECBu \u0111\u01B0\u1EE3c."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "T\u01B0\u01A1ng lai"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh kh\xF4ng n\u1EA3n l\xF2ng v\u1EC1 t\u01B0\u01A1ng lai."
       point: 0
-    - answer: 2
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y n\u1EA3n l\xF2ng v\u1EC1 t\u01B0\u01A1ng
+        lai h\u01A1n tr\u01B0\u1EDBc."
       point: 1
-    - answer: 3
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y m\xECnh ch\u1EB3ng c\xF3 g\xEC mong \u0111\u1EE3i
+        \u1EDF t\u01B0\u01A1ng lai c\u1EA3."
       point: 2
-    - answer: 4
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y t\u01B0\u01A1ng lai tuy\u1EC7t v\u1ECDng
+        v\xE0 t\xECnh h\xECnh ch\u1EC9 c\xF3 th\u1EC3 ti\u1EBFp t\u1EE5c x\u1EA5u
+        h\u01A1n."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "Th\u1EA5t b\u1EA1i"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh kh\xF4ng c\u1EA3m th\u1EA5y nh\u01B0 b\u1ECB th\u1EA5t b\u1EA1i."
       point: 0
-    - answer: 2
+    - answer: "M\xECnh th\u1EA5y m\xECnh th\u1EA5t b\u1EA1i nhi\u1EC1u h\u01A1n nh\u1EEFng
+        ng\u01B0\u1EDDi kh\xE1c."
       point: 1
-    - answer: 3
+    - answer: "Nh\xECn l\u1EA1i cu\u1ED9c \u0111\u1EDDi, m\xECnh th\u1EA5y m\xECnh
+        \u0111\xE3 c\xF3 qu\xE1 nhi\u1EC1u th\u1EA5t b\u1EA1i."
       point: 2
-    - answer: 4
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y m\xECnh l\xE0 m\u1ED9t ng\u01B0\u1EDDi
+        ho\xE0n to\xE0n th\u1EA5t b\u1EA1i."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "S\u1EDF th\xEDch"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh c\xF2n th\xEDch th\xFA v\u1EDBi nh\u1EEFng \u0111i\u1EC1u
+        m\xE0 tr\u01B0\u1EDBc \u0111\xE2y m\xECnh v\u1EABn th\u01B0\u1EDDng th\xEDch."
       point: 0
-    - answer: 2
+    - answer: "M\xECnh \xEDt th\u1EA5y th\xEDch nh\u1EEFng \u0111i\u1EC1u m\xE0 tr\u01B0\u1EDBc
+        \u0111\xE2y m\xECnh v\u1EABn th\u01B0\u1EDDng \u01B0a th\xEDch."
       point: 1
-    - answer: 3
+    - answer: "M\xECnh c\xF2n r\u1EA5t \xEDt th\xEDch th\xFA v\u1EC1 nh\u1EEFng \u0111i\u1EC1u
+        tr\u01B0\u1EDBc \u0111\xE2y m\xECnh v\u1EABn th\u01B0\u1EDDng th\xEDch."
       point: 2
-    - answer: 4
+    - answer: "M\xECnh kh\xF4ng c\xF2n ch\xFAt th\xEDch th\xFA n\xE0o n\u1EEFa."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "T\u1ED9i l\u1ED7i"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh ho\xE0n to\xE0n kh\xF4ng c\u1EA3m th\u1EA5y c\xF3 t\u1ED9i
+        l\u1ED7i g\xEC gh\xEA g\u1EDBm c\u1EA3."
       point: 0
-    - answer: 2
+    - answer: "Ph\u1EA7n nhi\u1EC1u nh\u1EEFng vi\u1EC7c m\xECnh \u0111\xE3 l\xE0m
+        m\xECnh \u0111\u1EC1u c\u1EA3m th\u1EA5y c\xF3 t\u1ED9i."
       point: 1
-    - answer: 3
+    - answer: "Ph\u1EA7n l\u1EDBn th\u1EDDi gian m\xECnh c\u1EA3m th\u1EA5y m\xECnh
+        c\xF3 t\u1ED9i."
       point: 2
-    - answer: 4
+    - answer: "L\xFAc n\xE0o m\xECnh c\u0169ng c\u1EA3m th\u1EA5y m\xECnh c\xF3 t\u1ED9i."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "Tr\u1EEBng ph\u1EA1t"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh kh\xF4ng c\u1EA3m th\u1EA5y \u0111ang b\u1ECB tr\u1EEBng ph\u1EA1t."
       point: 0
-    - answer: 2
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y c\xF3 l\u1EBD m\xECnh \u0111ang b\u1ECB
+        tr\u1EEBng ph\u1EA1t b\u1EDFi \u0111i\u1EC1u g\xEC \u0111\xF3."
       point: 1
-    - answer: 3
+    - answer: "M\xECnh \u0111ang b\u1ECB tr\u1EEBng ph\u1EA1t b\u1EDFi cu\u1ED9c
+        s\u1ED1ng."
       point: 2
-    - answer: 4
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y m\xECnh \u0111ang b\u1ECB tr\u1EEBng ph\u1EA1t
+        n\u0103ng n\u1EC1."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "Tin t\u01B0\u1EDFng"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh th\u1EA5y b\u1EA3n th\xE2n m\xECnh v\u1EABn nh\u01B0 tr\u01B0\u1EDBc
+        kia."
       point: 0
-    - answer: 2
+    - answer: "M\xECnh kh\xF4ng c\xF2n tin t\u01B0\u1EDFng v\xE0o b\u1EA3n th\xE2n."
       point: 1
-    - answer: 3
+    - answer: "M\xECnh th\u1EA5t v\u1ECDng v\u1EDBi b\u1EA3n th\xE2n."
       point: 2
-    - answer: 4
+    - answer: "M\xECnh gh\xE9t b\u1EA3n th\xE2n m\xECnh r\u1EA5t nhi\u1EC1u."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "Ph\xEA ph\xE1n"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh kh\xF4ng ph\xEA ph\xE1n ho\u1EB7c \u0111\u1ED5 l\u1ED7i cho
+        b\u1EA3n th\xE2n ch\xFAt n\xE0o."
       point: 0
-    - answer: 2
+    - answer: "M\xECnh ph\xEA ph\xE1n b\u1EA3n th\xE2n m\xECnh nhi\u1EC1u h\u01A1n
+        tr\u01B0\u1EDBc kia."
       point: 1
-    - answer: 3
+    - answer: "M\xECnh ph\xEA ph\xE1n b\u1EA3n th\xE2n v\u1EC1 t\u1EA5t c\u1EA3 nh\u1EEFng
+        l\u1ED7i l\u1EA7m c\u1EE7a m\xECnh."
       point: 2
-    - answer: 4
+    - answer: "M\xECnh \u0111\u1ED5 l\u1ED7i cho b\u1EA3n th\xE2n v\u1EC1 t\u1EA5t
+        c\u1EA3 m\u1ECDi \u0111i\u1EC1u t\u1ED3i t\u1EC7 x\u1EA3y ra."
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "T\u1EF1 s\xE1t"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh kh\xF4ng c\xF3 \xFD ngh\u0129 t\u1EF1 s\xE1t."
       point: 0
-    - answer: 2
+    - answer: "M\xECnh c\xF3 \xFD ngh\u0129 t\u1EF1 s\xE1t nh\u01B0ng kh\xF4ng th\u1EF1c
+        hi\u1EC7n."
       point: 1
-    - answer: 3
+    - answer: "M\xECnh mu\u1ED1n t\u1EF1 s\xE1t, \u0111\xF4i khi l\xE0 l\xE0m \u0111au
+        b\u1EA3n th\xE2n b\u1EB1ng nhi\u1EC1u c\xE1ch"
       point: 2
-    - answer: 4
+    - answer: "N\u1EBFu c\xF3 c\u01A1 h\u1ED9i m\xECnh s\u1EBD t\u1EF1 s\xE1t b\u1EA5t
+        c\u1EE9 l\xFAc n\xE0o\t\t\t\t\t\t\t"
       point: 3
-  - question: "N\u1ED7i bu\u1ED3n"
+  - question: "Kh\xF3c\t \t \t \t"
     answerList:
-    - answer: 1
+    - answer: "M\xECnh kh\xF4ng kh\xF3c v\xF4 c\u1EDB ch\xFAt n\xE0o.\t\t\t\t\t\t\t"
       point: 0
-    - answer: 2
+    - answer: "M\xECnh hay kh\xF3c nhi\u1EC1u h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
       point: 1
-    - answer: 3
+    - answer: "M\xECnh th\u01B0\u1EDDng kh\xF3c v\xEC nh\u1EEFng \u0111i\u1EC1u nh\u1ECF
+        nh\u1EB7t.\t\t\t\t\t\t\t"
       point: 2
-    - answer: 4
+    - answer: "M\xECnh th\u1EA5y l\xFAc n\xE0o c\u0169ng mu\u1ED1n kh\xF3c nh\u01B0ng
+        kh\xF4ng th\u1EC3 kh\xF3c \u0111\u01B0\u1EE3c \u0111\u01B0\u1EE3c n\u1EEFa.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "B\u1ED3n ch\u1ED3n, c\u0103ng th\u1EB3ng\t \t \t \t"
+    answerList:
+    - answer: "M\xECnh kh\xF4ng d\u1EC5 b\u1ED3n ch\u1ED3n v\xE0 c\u0103ng th\u1EB3ng
+        t\u1EB9o n\xE0o.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y d\u1EC5 b\u1ED3n ch\u1ED3n v\xE0 c\u0103ng
+        th\u1EB3ng h\u01A1n th\u01B0\u1EDDng l\u1EC7.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y b\u1ED3n ch\u1ED3n v\xE0 c\u0103ng th\u1EB3ng
+        \u0111\u1EBFn m\u1EE9c kh\xF3 c\xF3 th\u1EC3 ng\u1ED3i y\xEAn \u0111\u01B0\u1EE3c.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh th\u1EA5y r\u1EA5t b\u1ED3n ch\u1ED3n v\xE0 k\xEDch \u0111\u1ED9ng
+        \u0111\u1EBFn m\u1EE9c ph\u1EA3i \u0111i l\u1EA1i li\xEAn t\u1EE5c ho\u1EB7c
+        l\xE0m vi\u1EC7c g\xEC \u0111\xF3 \u0111\u1EC3 qu\xEAn \u0111i.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "H\u1EE9ng th\xFA\t \t \t \t"
+    answerList:
+    - answer: "H\u1EE9ng th\xFA\t \t \t \t"
+      point: 0
+    - answer: "M\xECnh \xEDt quan t\xE2m \u0111\u1EBFn m\u1ECDi ng\u01B0\u1EDDi,
+        m\u1ECDi vi\u1EC7c xung quanh h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh m\u1EA5t h\u1EA7u h\u1EBFt s\u1EF1 quan t\xE2m \u0111\u1EBFn
+        m\u1ECDi ng\u01B0\u1EDDi, m\u1ECDi vi\u1EC7c xung quanh.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh kh\xF4ng c\xF2n quan t\xE2m \u0111\u1EBFn b\u1EA5t c\u1EE9
+        \u0111i\u1EC1u g\xEC n\u1EEFa.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "Do d\u1EF1\t \t \t \t"
+    answerList:
+    - answer: "M\xECnh quy\u1EBFt \u0111\u1ECBnh m\u1ECDi vi\u1EC7c c\u0169ng t\u1ED1t
+        nh\u01B0 tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh th\u1EA5y kh\xF3 quy\u1EBFt \u0111\u1ECBnh m\u1ECDi vi\u1EC7c
+        h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh th\u1EA5y kh\xF3 quy\u1EBFt \u0111\u1ECBnh m\u1ECDi vi\u1EC7c
+        h\u01A1n tr\u01B0\u1EDBc r\u1EA5t nhi\u1EC1u.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh ch\u1EB3ng c\xF2n c\xF3 th\u1EC3 quy\u1EBFt \u0111\u1ECBnh
+        \u0111\u01B0\u1EE3c vi\u1EC7c g\xEC n\u1EEFa.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "Gi\xE1 tr\u1ECB b\u1EA3n th\xE2n\t \t \t \t"
+    answerList:
+    - answer: "M\xECnh kh\xF4ng c\u1EA3m th\u1EA5y m\xECnh l\xE0 ng\u01B0\u1EDDi
+        v\xF4 d\u1EE5ng.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh kh\xF4ng cho r\u1EB1ng m\xECnh c\xF3 gi\xE1 tr\u1ECB v\xE0
+        c\xF3 \xEDch nh\u01B0 tr\u01B0\u1EDBc kia.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh c\u1EA3m th\u1EA5y m\xECnh v\xF4 d\u1EE5ng h\u01A1n so v\u1EDBi
+        nh\u1EEFng ng\u01B0\u1EDDi xung quanh.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh th\u1EA5y m\xECnh l\xE0 ng\u01B0\u1EDDi ho\xE0n to\xE0n v\xF4
+        d\u1EE5ng.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "S\u1EE9c l\u1EF1c\t \t \t \t"
+    answerList:
+    - answer: "M\xECnh th\u1EA5y m\xECnh v\u1EABn tr\xE0n \u0111\u1EA7y s\u1EE9c
+        l\u1EF1c nh\u01B0 tr\u01B0\u1EDBc \u0111\xE2y.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "S\u1EE9c l\u1EF1c c\u1EE7a m\xECnh k\xE9m h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh kh\xF4ng \u0111\u1EE7 s\u1EE9c l\u1EF1c \u0111\u1EC3 l\xE0m
+        \u0111\u01B0\u1EE3c nhi\u1EC1u vi\u1EC7c n\u1EEFa.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh kh\xF4ng \u0111\u1EE7 s\u1EE9c l\u1EF1c \u0111\u1EC3 l\xE0m
+        \u0111\u01B0\u1EE3c b\u1EA5t c\u1EE9 vi\u1EC7c g\xEC n\u1EEFa.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "Gi\u1EA5c ng\u1EE7\t \t \t \t"
+    answerList:
+    - answer: "Kh\xF4ng th\u1EA5y c\xF3 ch\xFAt thay \u0111\u1ED5i g\xEC trong gi\u1EA5c
+        ng\u1EE7 c\u1EE7a m\xECnh.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh ng\u1EE7 h\u01A1i nhi\u1EC1u h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh ng\u1EE7 h\u01A1i \xEDt h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "Gi\u1EA5c ng\u1EE7 c\u1EE7a m\xECnh r\u1EA5t t\u1EC7 v\xE0 kh\xF4ng
+        th\u1EC3 x\xE1c \u0111\u1ECBnh \u0111\u01B0\u1EE3c.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "C\xE1u k\u1EC9nh\t \t \t \t"
+    answerList:
+    - answer: "M\xECnh kh\xF4ng d\u1EC5 c\xE1u k\u1EC9nh v\xE0 b\u1EF1c b\u1ED9i.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh d\u1EC5 c\xE1u k\u1EC9nh v\xE0 b\u1EF1c b\u1ED9i h\u01A1n
+        tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh d\u1EC5 c\xE1u k\u1EC9nh v\xE0 b\u1EF1c b\u1ED9i h\u01A1n
+        tr\u01B0\u1EDBc r\u1EA5t nhi\u1EC1u.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "L\xFAc n\xE0o m\xECnh c\u0169ng d\u1EC5 c\xE1u k\u1EC9nh v\xE0 b\u1EF1c
+        b\u1ED9i.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "B\u1EEFa \u0103n"
+    answerList:
+    - answer: "M\xECnh \u0103n v\u1EABn ngon mi\u1EC7ng nh\u01B0 tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh \u0103n k\xE9m ngon mi\u1EC7ng h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh \u0103n ngon mi\u1EC7ng h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh \u0103n k\xE9m ngon mi\u1EC7ng h\u01A1n tr\u01B0\u1EDBc r\u1EA5t
+        nhi\u1EC1u,  c\xF3 khi l\xE0 kh\xF4ng \u0103n ho\u1EB7c \u0103n nhi\u1EC1u
+        kh\xF4ng ki\u1EC3m so\xE1t."
+      point: 3
+  - question: "Ch\xFA \xFD"
+    answerList:
+    - answer: "M\xECnh c\xF3 th\u1EC3 ch\xFA \xFD t\u1ED1t nh\u01B0 tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh kh\xF4ng th\u1EC3 ch\xFA \xFD \u0111\u01B0\u1EE3c nh\u01B0
+        tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "M\xECnh th\u1EA5y kh\xF3 ch\xFA \xFD l\xE2u \u0111\u01B0\u1EE3c v\xE0o
+        b\u1EA5t c\u1EE9 \u0111i\u1EC1u g\xEC.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh th\u1EA5y m\xECnh kh\xF4ng th\u1EC3 ch\xFA \xFD \u0111\u01B0\u1EE3c
+        v\xE0o b\u1EA5t c\u1EE9 \u0111i\u1EC1u g\xEC n\u1EEFa.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "M\u1EC7t m\u1ECFi\t \t \t \t"
+    answerList:
+    - answer: "M\xECnh kh\xF4ng m\u1EC7t m\u1ECFi h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh d\u1EC5 m\u1EC7t m\u1ECFi h\u01A1n tr\u01B0\u1EDBc.\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "H\u1EA7u nh\u01B0 l\xE0m b\u1EA5t c\u1EE9 vi\u1EC7c g\xEC m\xECnh
+        c\u0169ng th\u1EA5y m\u1EC7t m\u1ECFi.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh qu\xE1 m\u1EC7t m\u1ECFi khi l\xE0m b\u1EA5t c\u1EE9 vi\u1EC7c
+        g\xEC.\t\t\t\t\t\t\t"
+      point: 3
+  - question: "Sinh l\xFD\t \t \t \t"
+    answerList:
+    - answer: "M\xECnh kh\xF4ng th\u1EA5y c\xF3 thay \u0111\u1ED5i g\xEC trong vi\u1EC7c
+        t\xECm t\xF2i v\u1EC1 c\u01A1 th\u1EC3 m\xECnh\t\t\t\t\t\t\t"
+      point: 0
+    - answer: "M\xECnh \xEDt h\u1EE9ng th\xFA v\u1EDBi nh\u1EEFng ph\xE1t tri\u1EC3n
+        v\u1EC1 c\u01A1 th\u1EC3 c\u1EE7a b\u1EA3n th\xE2n\t\t\t\t\t\t\t"
+      point: 1
+    - answer: "Hi\u1EC7n nay m\xECnh kh\xF4ng c\xF2n mu\u1ED1n hi\u1EC3u c\u01A1
+        th\u1EC3 m\xECnh.\t\t\t\t\t\t\t"
+      point: 2
+    - answer: "M\xECnh ho\xE0n to\xE0n m\u1EA5t s\u1EF1 th\xEDch th\xFA v\u1EC1 c\u01A1
+        th\u1EC3 m\xECnh.\t\t\t\t\t\t\t"
       point: 3
